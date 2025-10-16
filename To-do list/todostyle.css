@@ -1,40 +1,69 @@
-.todo-container{
+
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+.container{
+   display: flex;
+   height: 100vh;
+   flex-direction: column;
+ 
+   
+}
+
+.todo-header{
     background-color: #e3f2fd;
     color: #0a192f;
     padding: 15px;
     height: 10%;
-    text-align: center;
     font-size: 20px;
     font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 #todo-section{
     background-color: #1976d2;
-    padding: 15px;
-     height: 100%;
+     height: 90%;
+     display: flex;
+     flex-direction: column;
      text-align: center;
      font-family: 'Courier New', Courier, monospace;
-     justify-content: center;
+     align-items: center;
+     gap: 1.5rem;
+
+
     
 }
 
-.container{
-    /* justify-items: center; */
-     height: 100vh;
-   
-
+h2{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
 }
+
+/* 
 .todo-summary{
     justify-items: center;
-    margin-top: 10rem;
-}
+    margin-top: 2rem;
+} */
 
 #todo-text{
-    width: 50rem;
-    height: 5rem;
+    width: 45rem;
+    height: 3rem;
     border-radius: 10px;
     border-style: none;
-   
+    background-color: #e3f2fd;
+    
+    
+}
+input { outline: none;
+    font-size: 20px;
+       
+
 }
 
 .todo-btn{
@@ -54,8 +83,26 @@
 
 }
 
-.section{
-    
+#input-summary{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    align-items: flex-start;
+
+}
+
+#input-summary li{
+    font-size: 15px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 800px;
+    border-radius: 5px;
+    background-color: #238bf3;
+    height: 40px;
+    text-align: center;
+   display: flex;
+   align-items: center;
+   justify-content: center;
 }
 
 

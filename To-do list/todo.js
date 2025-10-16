@@ -36,9 +36,9 @@ button.addEventListener("click", function(){
     task.addEventListener("click", function(){
         task.classList.toggle("strike");
         
-        if(task.classList.toggle("strike") === false ){
-      alert(`you have number ${count} list `)
-    }
+    //     if(task.classList.toggle("strike") === false ){
+    //   alert(`you have number ${count} list `)
+    // }
    
     })
     
